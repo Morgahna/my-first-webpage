@@ -1,12 +1,13 @@
-/* My favourite things Styling */
+/* INDEX STYLE SHEET */
 /* SELECTOR —> PROPERTY —> VALUE */
 body {
   text-align: center;
-  width: 80%;
-  padding-left: 9.5%;
+  width: 90%;
+  padding-left: 5%;
   background-color: beige;
-  font-family: Roboto, sans-serif;
+  font-family: 'Merriweather', serif;
 }
+
 h1 {
   color: red;
   text-align: center;
@@ -24,17 +25,21 @@ a {
 }
 
 p {
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 ul {
-  font-size: 20px;
-  line-height: 30px;
+  display: block;
+  list-style: none;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
-  list-style: none;
+}
+
+li {
+  display: block;
+  padding: 0.2%;
 }
 
 .listsubtitles {
@@ -48,4 +53,18 @@ ol {
   padding-top: 0;
   padding-bottom: 0;
   list-style: none;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  font-style: italic;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 2%;
+
+}
+
+.button img {
+  padding-bottom: 3px;
 }
